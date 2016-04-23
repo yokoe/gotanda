@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+A lightweight bitmap manipulation library for Swift.
                        DESC
 
   s.homepage         = "https://github.com/yokoe/Gotanda"
@@ -28,7 +29,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/croquette0212'
 
   # s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.9'
 
   s.source_files = 'Gotanda/Classes/*.swift'
 
