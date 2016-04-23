@@ -7,7 +7,15 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```
+let imageRep = Gotanda(width: 300, height: 200, backgroundColor: NSColor.yellowColor().CGColor).draw { (context) in
+    // Draw something using context
+}.imageRep
+
+if let pngData = imageRep.representationUsingType(NSBitmapImageFileType.NSPNGFileType, properties: [:]) {
+    // Save PNG data.
+}
+```
 
 ## Requirements
 
