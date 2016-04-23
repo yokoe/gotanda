@@ -10,13 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>007C72B06CE6266000A527EDBC8EAEE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1CA6EBC2E57D96052268211209D6AA52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>00D181BF7F499F17D164503BA7C822DB</key>
 		<dict>
 			<key>children</key>
@@ -32,82 +25,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>088A50F4F270ACAA0AAA6819A19654D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>095C31D87201AC248C1FF9D17E8A51E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F00A2632702509E62808716A46B22E68</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0EF3B273D69BF481A9612FBB0A5A2399</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4093FD50563A56B2B7C228274DFEF40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Gotanda/Gotanda-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Gotanda/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Gotanda/Gotanda.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>Gotanda</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>0F7E6227E705D57ABA9D61817495D49F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -118,6 +35,13 @@
 			<string>Gotanda.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17010B86B8430DA0A013D482EA2EFEF0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8A6A48B24595767309D838079BB566B4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>1CA6EBC2E57D96052268211209D6AA52</key>
 		<dict>
@@ -229,6 +153,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2858202D48A71C3A1EC4FEEA7884D477</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B216FFA06BCBBBE24D9020FEF9D44066</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>28C17CEF104526ACA07B6EEE217EC43E</key>
 		<dict>
 			<key>children</key>
@@ -309,6 +247,31 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>336F21548524FB2EC5EDAA85C65E51CD</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EC25E09B3198D94DA1AA811ABF51013E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B0AFA3E5FC4499F7E43D2CD5FE4CB0A6</string>
+				<string>C7C3E5D8FA4F72F98D44A41BCADFB3ED</string>
+				<string>F74EBE26FB32AAF0EDAA9EB5FAC0034B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Gotanda</string>
+			<key>productName</key>
+			<string>Gotanda</string>
+			<key>productReference</key>
+			<string>60A207CA4E1F526A7319E25B782F10A3</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>3563497E092B6F72FD5B27D3D267537B</key>
 		<dict>
@@ -508,45 +471,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>590FD0E0E2F9C282621BED29A7C803E4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>74C28ED7A1FFF4BFDC41F9A4ED26673B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>ADEF256A9274BA7B8C23F3AE662D6383</string>
-				<string>65B389E5EBA00A4D5272186098477EDA</string>
-				<string>978E6724B554F3E3989F160FA6B9B7DB</string>
-				<string>E05BE28AA44563F99ACAA8EB70E79135</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BC6C7D4CAE378D790FD43FDB05C4A823</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Gotanda</string>
-			<key>productName</key>
-			<string>Gotanda</string>
-			<key>productReference</key>
-			<string>BA43AB9642735F81AB70D201EF28C58F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>59FD47B29DA3D4A272A60C42BE31F6EB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>603E778FEE7F54D81954A454AFE20949</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -560,18 +484,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>65B389E5EBA00A4D5272186098477EDA</key>
+		<key>60A207CA4E1F526A7319E25B782F10A3</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>007C72B06CE6266000A527EDBC8EAEE0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
 			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Gotanda.framework</string>
+			<key>path</key>
+			<string>Gotanda.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>6B66289BC4862963D3AF971A696C26AB</key>
 		<dict>
@@ -596,16 +522,125 @@
 			<key>productName</key>
 			<string>Pods-Gotanda_Tests</string>
 			<key>productReference</key>
-			<string>A935EBF523423F08B3DEBD7250A3115F</string>
+			<string>EAD1E536C2CBFDA450F8B1E3FF14F10F</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>6F85A9596A3787950D0B10BDFA8D0F51</key>
+		<key>6C95BC73F823F8015EEC8E965288D2D0</key>
 		<dict>
-			<key>fileRef</key>
-			<string>603E778FEE7F54D81954A454AFE20949</string>
+			<key>baseConfigurationReference</key>
+			<string>A4093FD50563A56B2B7C228274DFEF40</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>FRAMEWORK_VERSION</key>
+				<string>A</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Gotanda/Gotanda-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Gotanda/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/../Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.10</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Gotanda/Gotanda.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>Gotanda</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6FF993BDD686A7B7E7B388EED00898B9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A4093FD50563A56B2B7C228274DFEF40</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>FRAMEWORK_VERSION</key>
+				<string>A</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Gotanda/Gotanda-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Gotanda/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/../Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACOSX_DEPLOYMENT_TARGET</key>
+				<string>10.10</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Gotanda/Gotanda.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Gotanda</string>
+				<key>SDKROOT</key>
+				<string>macosx</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>740FE2B189D984A8D71EB9BB3C7768F3</key>
 		<dict>
@@ -614,23 +649,9 @@
 			<key>name</key>
 			<string>Gotanda</string>
 			<key>target</key>
-			<string>590FD0E0E2F9C282621BED29A7C803E4</string>
+			<string>336F21548524FB2EC5EDAA85C65E51CD</string>
 			<key>targetProxy</key>
 			<string>8CCF0E0FCAE9D1B39112B8F501D6A03C</string>
-		</dict>
-		<key>74C28ED7A1FFF4BFDC41F9A4ED26673B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0EF3B273D69BF481A9612FBB0A5A2399</string>
-				<string>D8C4F473433F7CAADB642260D03CA100</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
 		</dict>
 		<key>75D8D7911EF743273B25E74A672BF7F0</key>
 		<dict>
@@ -644,17 +665,6 @@
 			<string>Pods-Gotanda_Tests.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>796B50659B01E1E4CF174A08978F4777</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>7C8BB451AA9628C7DE6456889ABA9970</key>
 		<dict>
@@ -677,7 +687,7 @@
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BEDDD3E0B146AD98FF0E34374C1844BE</string>
 				<string>39E9EE8210D861DFD82346C1F5EB7218</string>
-				<string>F89704B18279DA18922ED8E512EB1F78</string>
+				<string>C2047828AEF8F1C2B64DE81B13FA0329</string>
 				<string>40B861FCB306F18E7C3728323AB028EE</string>
 			</array>
 			<key>isa</key>
@@ -697,32 +707,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>80810BF6098A919B7B2ED2523032CD17</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4093FD50563A56B2B7C228274DFEF40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Bundles</string>
-				<key>PRODUCT_NAME</key>
-				<string>Gotanda</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
 		<key>8A6A48B24595767309D838079BB566B4</key>
 		<dict>
@@ -746,7 +730,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>590FD0E0E2F9C282621BED29A7C803E4</string>
+			<string>336F21548524FB2EC5EDAA85C65E51CD</string>
 			<key>remoteInfo</key>
 			<string>Gotanda</string>
 		</dict>
@@ -776,18 +760,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>978E6724B554F3E3989F160FA6B9B7DB</key>
+		<key>9B86F1744E8173DF38CEB5BCF1C0EE97</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>095C31D87201AC248C1FF9D17E8A51E0</string>
-			</array>
+			<key>fileRef</key>
+			<string>603E778FEE7F54D81954A454AFE20949</string>
 			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A4093FD50563A56B2B7C228274DFEF40</key>
 		<dict>
@@ -829,21 +807,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>A935EBF523423F08B3DEBD7250A3115F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_Gotanda_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_Gotanda_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>AA72CDB706992EA9470A6E1B704745C5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -855,52 +818,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ADEF256A9274BA7B8C23F3AE662D6383</key>
+		<key>B0AFA3E5FC4499F7E43D2CD5FE4CB0A6</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>B04A51DF5CD17044E550C1187063620F</string>
-				<string>6F85A9596A3787950D0B10BDFA8D0F51</string>
+				<string>17010B86B8430DA0A013D482EA2EFEF0</string>
+				<string>9B86F1744E8173DF38CEB5BCF1C0EE97</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>B04A51DF5CD17044E550C1187063620F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A6A48B24595767309D838079BB566B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B06EF842C962E016903511140CDC89B3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4093FD50563A56B2B7C228274DFEF40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Bundles</string>
-				<key>PRODUCT_NAME</key>
-				<string>Gotanda</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
 		<key>B216FFA06BCBBBE24D9020FEF9D44066</key>
 		<dict>
@@ -914,21 +844,6 @@
 			<string>Gotanda-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA43AB9642735F81AB70D201EF28C58F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Gotanda.framework</string>
-			<key>path</key>
-			<string>Gotanda.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -947,17 +862,6 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BC6C7D4CAE378D790FD43FDB05C4A823</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Gotanda-Gotanda</string>
-			<key>target</key>
-			<string>CD7EFDAABDFC4612838C457096D6A6DA</string>
-			<key>targetProxy</key>
-			<string>E21A4AEED3E23F2D475F7268B8FC50C1</string>
-		</dict>
 		<key>BEDDD3E0B146AD98FF0E34374C1844BE</key>
 		<dict>
 			<key>children</key>
@@ -971,30 +875,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CD7EFDAABDFC4612838C457096D6A6DA</key>
+		<key>C2047828AEF8F1C2B64DE81B13FA0329</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>DA95E572C9E9DE9B26285FE303872B20</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>796B50659B01E1E4CF174A08978F4777</string>
-				<string>59FD47B29DA3D4A272A60C42BE31F6EB</string>
-				<string>088A50F4F270ACAA0AAA6819A19654D8</string>
+				<string>60A207CA4E1F526A7319E25B782F10A3</string>
+				<string>EAD1E536C2CBFDA450F8B1E3FF14F10F</string>
 			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Gotanda-Gotanda</string>
-			<key>productName</key>
-			<string>Gotanda-Gotanda</string>
-			<key>productReference</key>
-			<string>F00A2632702509E62808716A46B22E68</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7C3E5D8FA4F72F98D44A41BCADFB3ED</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D05976B56EAA81CC0A35E5EB0C86F6AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D05976B56EAA81CC0A35E5EB0C86F6AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1CA6EBC2E57D96052268211209D6AA52</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D05AAF17182197D000BC9E164507F689</key>
 		<dict>
@@ -1115,7 +1028,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>F89704B18279DA18922ED8E512EB1F78</string>
+			<string>C2047828AEF8F1C2B64DE81B13FA0329</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1124,8 +1037,7 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>590FD0E0E2F9C282621BED29A7C803E4</string>
-				<string>CD7EFDAABDFC4612838C457096D6A6DA</string>
+				<string>336F21548524FB2EC5EDAA85C65E51CD</string>
 				<string>6B66289BC4862963D3AF971A696C26AB</string>
 			</array>
 		</dict>
@@ -1149,118 +1061,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D8C4F473433F7CAADB642260D03CA100</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4093FD50563A56B2B7C228274DFEF40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>COMBINE_HIDPI_IMAGES</key>
-				<string>YES</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>FRAMEWORK_VERSION</key>
-				<string>A</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Gotanda/Gotanda-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Gotanda/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/../Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.10</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Gotanda/Gotanda.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>Gotanda</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DA95E572C9E9DE9B26285FE303872B20</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>80810BF6098A919B7B2ED2523032CD17</string>
-				<string>B06EF842C962E016903511140CDC89B3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E05BE28AA44563F99ACAA8EB70E79135</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E4B7C8CB7F26F42C510545959DA1B359</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E21A4AEED3E23F2D475F7268B8FC50C1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>CD7EFDAABDFC4612838C457096D6A6DA</string>
-			<key>remoteInfo</key>
-			<string>Gotanda-Gotanda</string>
-		</dict>
-		<key>E4B7C8CB7F26F42C510545959DA1B359</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B216FFA06BCBBBE24D9020FEF9D44066</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>E5F695FFBDB4AC32E6DF72044F8D5A32</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1274,35 +1074,47 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F00A2632702509E62808716A46B22E68</key>
+		<key>EAD1E536C2CBFDA450F8B1E3FF14F10F</key>
 		<dict>
 			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
 			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Gotanda.bundle</string>
+			<string>Pods_Gotanda_Tests.framework</string>
 			<key>path</key>
-			<string>Gotanda.bundle</string>
+			<string>Pods_Gotanda_Tests.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>F89704B18279DA18922ED8E512EB1F78</key>
+		<key>EC25E09B3198D94DA1AA811ABF51013E</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>F00A2632702509E62808716A46B22E68</string>
-				<string>BA43AB9642735F81AB70D201EF28C58F</string>
-				<string>A935EBF523423F08B3DEBD7250A3115F</string>
+				<string>6FF993BDD686A7B7E7B388EED00898B9</string>
+				<string>6C95BC73F823F8015EEC8E965288D2D0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F74EBE26FB32AAF0EDAA9EB5FAC0034B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2858202D48A71C3A1EC4FEEA7884D477</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>FAA624687E46393A6043EE266BCDFA46</key>
 		<dict>

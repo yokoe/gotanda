@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '19C7346978B31D7A2F26BDE8'
+               BlueprintIdentifier = '569C685128775CB35CB1D2C5'
                BlueprintName = 'Gotanda'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Gotanda.framework'>

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Gotanda
 
-Copyright (c) 2016 SotaYokoe <kreuz45@kreuz45.com>
+Copyright (c) 2016 Sota Yokoe <info@kreuz45.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

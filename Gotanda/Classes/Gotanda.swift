@@ -43,6 +43,23 @@ public class Gotanda {
         } else {
             return nil
         }
-
+    }
+    
+    public var pngData: NSData? {
+        guard let imageRep = imageRep else {
+            print("No image rep.")
+            return nil
+        }
+        
+        return imageRep.representationUsingType(.NSPNGFileType, properties: [:])
+    }
+    
+    public var nsImage: NSImage? {
+        guard let pngData = pngData else {
+            print("No pngData.")
+            return nil
+        }
+        
+        return NSImage(data: pngData)
     }
 }

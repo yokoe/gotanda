@@ -8,11 +8,11 @@
 ## Usage
 
 ```
-let imageRep = Gotanda(width: 300, height: 200, backgroundColor: NSColor.yellowColor().CGColor).draw { (context) in
+let gotanda = Gotanda(width: UInt(300), height: UInt(200), backgroundColor: NSColor.yellowColor().CGColor).draw { (context) in
     // Draw something using context
-}.imageRep
+}
 
-if let pngData = imageRep.representationUsingType(NSBitmapImageFileType.NSPNGFileType, properties: [:]) {
+if let pngData = gotanda.pngData {
     // Save PNG data.
 }
 ```
