@@ -36,4 +36,8 @@ A lightweight bitmap manipulation library for Swift.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Cocoa'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.xcconfig = {
+    'SWIFT_VERSION' => '3'
+  }
 end
