@@ -1,5 +1,5 @@
 PODS:
-  - Gotanda (0.0.1)
+  - Gotanda (0.0.3)
 
 DEPENDENCIES:
   - Gotanda (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Gotanda: f05beb4e50853dcf709ee624d6e6cfcbf5215daf
+  Gotanda: 1dc63f9aa04106d0b9c3665d4cbb527a6e47f86d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: fd477e2ffb8e39bdf8fe37b6093fc730d5e8b076
+
+COCOAPODS: 1.0.1

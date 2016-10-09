@@ -1,60 +1,60 @@
 import Cocoa
 
-public class Gotanda {
-    private var bitmapContext: CGContextRef?
+open class Gotanda {
+    fileprivate var bitmapContext: CGContext?
     
-    public convenience init(width: CGFloat, height: CGFloat, backgroundColor: CGColor = NSColor.clearColor().CGColor) {
-        self.init(width: UInt(width), height: UInt(height), backgroundColor: backgroundColor)
+    public convenience init(size: CGSize, backgroundColor: CGColor = NSColor.clear.cgColor) {
+        self.init(width: UInt(size.width), height: UInt(size.height), backgroundColor: backgroundColor)
     }
     
-    public init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clearColor().CGColor) {
+    public init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clear.cgColor) {
         let bitsPerComponent = Int(8)
         let bytesPerRow = 4 * width
         let colorSpace = CGColorSpaceCreateDeviceRGB()
-        let bitmapInfo = CGBitmapInfo(rawValue: CGImageAlphaInfo.PremultipliedLast.rawValue).rawValue
+        let bitmapInfo = CGBitmapInfo(rawValue: CGImageAlphaInfo.premultipliedLast.rawValue).rawValue
         
-        bitmapContext = CGBitmapContextCreate(nil, Int(width), Int(height), bitsPerComponent, Int(bytesPerRow), colorSpace, bitmapInfo)
+        bitmapContext = CGContext(data: nil, width: Int(width), height: Int(height), bitsPerComponent: bitsPerComponent, bytesPerRow: Int(bytesPerRow), space: colorSpace, bitmapInfo: bitmapInfo)
         
         if let context = bitmapContext {
-            CGContextSetFillColorWithColor(context, backgroundColor)
-            CGContextFillRect(context, CGRectMake(0, 0, CGFloat(width), CGFloat(height)))
+            context.setFillColor(backgroundColor)
+            context.fill(CGRect(x: 0, y: 0, width: CGFloat(width), height: CGFloat(height)))
         } else {
             fatalError("Failed to create bitmap context.")
         }
     }
     
-    public func draw(contents: ((context: CGContextRef) -> ())) -> Gotanda {
+    open func draw(_ contents: ((_ context: CGContext) -> ())) -> Gotanda {
         guard let context = bitmapContext else {
             fatalError("bitmapContext is empty.")
         }
         
-        contents(context: context)
+        contents(context)
         
         return self
     }
     
-    public var imageRep: NSBitmapImageRep? {
+    open var imageRep: NSBitmapImageRep? {
         guard let context = bitmapContext else {
             fatalError("bitmapContext is empty.")
         }
         
-        if let newImageRef = CGBitmapContextCreateImage(context) {
-            return NSBitmapImageRep(CGImage: newImageRef)
+        if let newImageRef = context.makeImage() {
+            return NSBitmapImageRep(cgImage: newImageRef)
         } else {
             return nil
         }
     }
     
-    public var pngData: NSData? {
+    open var pngData: Data? {
         guard let imageRep = imageRep else {
             print("No image rep.")
             return nil
         }
         
-        return imageRep.representationUsingType(.NSPNGFileType, properties: [:])
+        return imageRep.representation(using: .PNG, properties: [:])
     }
     
-    public var nsImage: NSImage? {
+    open var nsImage: NSImage? {
         guard let pngData = pngData else {
             print("No pngData.")
             return nil

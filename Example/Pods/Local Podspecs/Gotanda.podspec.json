@@ -1,6 +1,6 @@
 {
   "name": "Gotanda",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "A lightweight bitmap manipulation library for Cocoa.",
   "description": "A lightweight bitmap manipulation library for Swift.",
   "homepage": "https://github.com/yokoe/Gotanda",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/yokoe/Gotanda.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "social_media_url": "https://twitter.com/croquette0212",
   "platforms": {

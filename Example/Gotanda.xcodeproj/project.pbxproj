@@ -7,40 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D493711DA9F222005A0DD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D493701DA9F222005A0DD9 /* AppDelegate.swift */; };
+		19D493731DA9F222005A0DD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D493721DA9F222005A0DD9 /* ViewController.swift */; };
+		19D493751DA9F222005A0DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D493741DA9F222005A0DD9 /* Assets.xcassets */; };
+		19D493781DA9F222005A0DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D493761DA9F222005A0DD9 /* Main.storyboard */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D447EAFEE893F438E4C12637 /* Pods_Gotanda_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59139D609B9558D328F8E8EC /* Pods_Gotanda_Tests.framework */; };
+		A25824EE55015E3E15A4526B /* Pods_GotandaMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6263A3BE850147F7D9C62204 /* Pods_GotandaMac.framework */; };
+		C6D6372337CF1E5CD4A5930B /* Pods_Gotanda_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79A3E39968218D79CA44A2F /* Pods_Gotanda_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D4936E1DA9F222005A0DD9 /* GotandaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotandaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D493701DA9F222005A0DD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19D493721DA9F222005A0DD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D493741DA9F222005A0DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D493771DA9F222005A0DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19D493791DA9F222005A0DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C00EA10F13FE4C893CE4DEA /* Pods-GotandaMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotandaMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GotandaMac/Pods-GotandaMac.debug.xcconfig"; sourceTree = "<group>"; };
 		1D504F04EC1A7A31A06CD124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		49062E4901C55DE9336AD147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		59139D609B9558D328F8E8EC /* Pods_Gotanda_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gotanda_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* Gotanda_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gotanda_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75DC37D3293E926CC1C85A0F /* Pods-Gotanda_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotanda_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3F959F57F0FE4AC02DCD3AF /* Pods-Gotanda_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotanda_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6263A3BE850147F7D9C62204 /* Pods_GotandaMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotandaMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753EF5477F17036A4B5E91EB /* Pods-Gotanda_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotanda_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C79A3E39968218D79CA44A2F /* Pods_Gotanda_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gotanda_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD199C3BDCFAF6D279229BB /* Pods-Gotanda_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gotanda_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9AE32DAA9A8FFA3B62BFB81 /* Gotanda.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Gotanda.podspec; path = ../Gotanda.podspec; sourceTree = "<group>"; };
+		FA23A22FD762DFCD1F193BD9 /* Pods-GotandaMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotandaMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-GotandaMac/Pods-GotandaMac.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		19D4936B1DA9F222005A0DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25824EE55015E3E15A4526B /* Pods_GotandaMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE21AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D447EAFEE893F438E4C12637 /* Pods_Gotanda_Tests.framework in Frameworks */,
+				C6D6372337CF1E5CD4A5930B /* Pods_Gotanda_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36DEDEE42AD110EE750932B8 /* Frameworks */ = {
+		19D4936F1DA9F222005A0DD9 /* GotandaMac */ = {
 			isa = PBXGroup;
 			children = (
-				59139D609B9558D328F8E8EC /* Pods_Gotanda_Tests.framework */,
+				19D493701DA9F222005A0DD9 /* AppDelegate.swift */,
+				19D493721DA9F222005A0DD9 /* ViewController.swift */,
+				19D493741DA9F222005A0DD9 /* Assets.xcassets */,
+				19D493761DA9F222005A0DD9 /* Main.storyboard */,
+				19D493791DA9F222005A0DD9 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = GotandaMac;
+			sourceTree = "<group>";
+		};
+		24F9E723CCE891FC2C2818F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C00EA10F13FE4C893CE4DEA /* Pods-GotandaMac.debug.xcconfig */,
+				FA23A22FD762DFCD1F193BD9 /* Pods-GotandaMac.release.xcconfig */,
+				CCD199C3BDCFAF6D279229BB /* Pods-Gotanda_Tests.debug.xcconfig */,
+				753EF5477F17036A4B5E91EB /* Pods-Gotanda_Tests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -48,9 +85,10 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				19D4936F1DA9F222005A0DD9 /* GotandaMac */,
 				607FACD11AFB9204008FA782 /* Products */,
-				79386464CB005ADEA656B29E /* Pods */,
-				36DEDEE42AD110EE750932B8 /* Frameworks */,
+				24F9E723CCE891FC2C2818F1 /* Pods */,
+				77DBC566BABC114396C3F1D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* Gotanda_Tests.xctest */,
+				19D4936E1DA9F222005A0DD9 /* GotandaMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,28 +128,48 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		79386464CB005ADEA656B29E /* Pods */ = {
+		77DBC566BABC114396C3F1D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75DC37D3293E926CC1C85A0F /* Pods-Gotanda_Tests.debug.xcconfig */,
-				A3F959F57F0FE4AC02DCD3AF /* Pods-Gotanda_Tests.release.xcconfig */,
+				6263A3BE850147F7D9C62204 /* Pods_GotandaMac.framework */,
+				C79A3E39968218D79CA44A2F /* Pods_Gotanda_Tests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		19D4936D1DA9F222005A0DD9 /* GotandaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D4937C1DA9F222005A0DD9 /* Build configuration list for PBXNativeTarget "GotandaMac" */;
+			buildPhases = (
+				206FB93974CA303CDB6221BB /* [CP] Check Pods Manifest.lock */,
+				19D4936A1DA9F222005A0DD9 /* Sources */,
+				19D4936B1DA9F222005A0DD9 /* Frameworks */,
+				19D4936C1DA9F222005A0DD9 /* Resources */,
+				1E3CC7B566489BB7FDDBC231 /* [CP] Embed Pods Frameworks */,
+				BC963D63312CC630FF9FEC93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GotandaMac;
+			productName = GotandaMac;
+			productReference = 19D4936E1DA9F222005A0DD9 /* GotandaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		607FACE41AFB9204008FA782 /* Gotanda_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Gotanda_Tests" */;
 			buildPhases = (
-				2E24B0D66AAF388E98E4F870 /* Check Pods Manifest.lock */,
+				198803DFA266181849D55D68 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				C0F258F5D7F1D240DE2EA6C3 /* Embed Pods Frameworks */,
-				333785C972AA5A54AE454809 /* Copy Pods Resources */,
+				697BA67724514B0876671318 /* [CP] Embed Pods Frameworks */,
+				9E284B205BFAFEEC74D21AB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,10 +186,15 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					19D4936D1DA9F222005A0DD9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4D3WCELAM5;
+						ProvisioningStyle = Automatic;
+					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
@@ -151,11 +215,21 @@
 			projectRoot = "";
 			targets = (
 				607FACE41AFB9204008FA782 /* Gotanda_Tests */,
+				19D4936D1DA9F222005A0DD9 /* GotandaMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19D4936C1DA9F222005A0DD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D493751DA9F222005A0DD9 /* Assets.xcassets in Resources */,
+				19D493781DA9F222005A0DD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,14 +240,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E24B0D66AAF388E98E4F870 /* Check Pods Manifest.lock */ = {
+		198803DFA266181849D55D68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,29 +255,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		333785C972AA5A54AE454809 /* Copy Pods Resources */ = {
+		1E3CC7B566489BB7FDDBC231 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GotandaMac/Pods-GotandaMac-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C0F258F5D7F1D240DE2EA6C3 /* Embed Pods Frameworks */ = {
+		206FB93974CA303CDB6221BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		697BA67724514B0876671318 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,9 +300,48 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9E284B205BFAFEEC74D21AB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gotanda_Tests/Pods-Gotanda_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC963D63312CC630FF9FEC93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GotandaMac/Pods-GotandaMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		19D4936A1DA9F222005A0DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D493731DA9F222005A0DD9 /* ViewController.swift in Sources */,
+				19D493711DA9F222005A0DD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACE11AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,7 +352,63 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		19D493761DA9F222005A0DD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D493771DA9F222005A0DD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		19D4937A1DA9F222005A0DD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C00EA10F13FE4C893CE4DEA /* Pods-GotandaMac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4D3WCELAM5;
+				INFOPLIST_FILE = GotandaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreuz45.GotandaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		19D4937B1DA9F222005A0DD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA23A22FD762DFCD1F193BD9 /* Pods-GotandaMac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4D3WCELAM5;
+				INFOPLIST_FILE = GotandaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kreuz45.GotandaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,7 +495,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75DC37D3293E926CC1C85A0F /* Pods-Gotanda_Tests.debug.xcconfig */;
+			baseConfigurationReference = CCD199C3BDCFAF6D279229BB /* Pods-Gotanda_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -330,7 +514,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3F959F57F0FE4AC02DCD3AF /* Pods-Gotanda_Tests.release.xcconfig */;
+			baseConfigurationReference = 753EF5477F17036A4B5E91EB /* Pods-Gotanda_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -346,6 +530,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		19D4937C1DA9F222005A0DD9 /* Build configuration list for PBXNativeTarget "GotandaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D4937A1DA9F222005A0DD9 /* Debug */,
+				19D4937B1DA9F222005A0DD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Gotanda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
