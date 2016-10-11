@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Gotanda"
-  s.version          = "0.0.3"
+  s.version          = "0.0.4"
   s.summary          = "A lightweight bitmap manipulation library for Cocoa."
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ A lightweight bitmap manipulation library for Swift.
   # s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
-  s.source_files = 'Gotanda/Classes/*.swift'
+  s.source_files = "Sources/**/*.{h,swift}"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Cocoa'

@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Gotanda.xcodeproj">
+      location = "container:GotandaDev.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:GotandaDev.playground">
    </FileRef>
 </Workspace>
