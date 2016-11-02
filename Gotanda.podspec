@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "Gotanda"
-  s.version          = "0.0.4"
-  s.summary          = "A lightweight bitmap manipulation library for Cocoa."
+  s.version          = "0.0.5"
+  s.summary          = "A lightweight bitmap manipulation library for iOS / macOS."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ A lightweight bitmap manipulation library for Swift.
   s.source           = { :git => "https://github.com/yokoe/Gotanda.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/croquette0212'
 
-  # s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
 
   s.source_files = "Sources/**/*.{h,swift}"

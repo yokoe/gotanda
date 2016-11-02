@@ -1,13 +1,32 @@
-import Cocoa
+#if os(OSX)
+    import Cocoa
+#elseif os(iOS)
+    import UIKit
+#endif
 
 open class Gotanda {
     fileprivate var bitmapContext: CGContext?
     
+    #if os(OSX)
     public convenience init(size: CGSize, backgroundColor: CGColor = NSColor.clear.cgColor) {
         self.init(width: UInt(size.width), height: UInt(size.height), backgroundColor: backgroundColor)
     }
+    #elseif os(iOS)
+    public convenience init(size: CGSize, backgroundColor: CGColor = UIColor.clear.cgColor) {
+        self.init(width: UInt(size.width), height: UInt(size.height), backgroundColor: backgroundColor)
+    }
+    #endif
     
+    #if os(OSX)
     public init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clear.cgColor) {
+        setup(width: width, height: height, backgroundColor: backgroundColor)
+    }
+    #elseif os(iOS)
+    public init(width: UInt, height: UInt, backgroundColor: CGColor = UIColor.clear.cgColor) {
+        setup(width: width, height: height, backgroundColor: backgroundColor)
+    }
+    #endif
+    private func setup(width: UInt, height: UInt, backgroundColor: CGColor) {
         let bitsPerComponent = Int(8)
         let bytesPerRow = 4 * width
         let colorSpace = CGColorSpaceCreateDeviceRGB()
@@ -33,6 +52,7 @@ open class Gotanda {
         return self
     }
     
+    #if os(OSX)
     open var imageRep: NSBitmapImageRep? {
         guard let context = bitmapContext else {
             fatalError("bitmapContext is empty.")
@@ -62,4 +82,12 @@ open class Gotanda {
         
         return NSImage(data: pngData)
     }
+    #endif
+    
+    #if os(iOS)
+    open var uiImage: UIImage? {
+        guard let img = bitmapContext?.makeImage() else { return nil }
+        return UIImage(cgImage: img)
+    }
+    #endif
 }

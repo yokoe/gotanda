@@ -1,8 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import Cocoa
+import Gotanda
 
-var str = "Hello, playground"
-
-var gotanda = Gotanda(width: 100, height: 100)
+let gotanda = Gotanda(width: 100, height: 100)
 debugPrint(gotanda)
