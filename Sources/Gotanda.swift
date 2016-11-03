@@ -6,27 +6,30 @@
 
 open class Gotanda {
     fileprivate var bitmapContext: CGContext?
+    fileprivate var canvasSize: CGSize
     
     #if os(OSX)
-    public convenience init(size: CGSize, backgroundColor: CGColor = NSColor.clear.cgColor) {
-        self.init(width: UInt(size.width), height: UInt(size.height), backgroundColor: backgroundColor)
+    public init(size: CGSize, backgroundColor: CGColor = NSColor.clear.cgColor) {
+        canvasSize = size
+        setup(backgroundColor: backgroundColor)
+    }
+    public convenience init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clear.cgColor) {
+        self.init(size: CGSize(width: CGFloat(width), height: CGFloat(height)), backgroundColor: backgroundColor)
     }
     #elseif os(iOS)
-    public convenience init(size: CGSize, backgroundColor: CGColor = UIColor.clear.cgColor) {
-        self.init(width: UInt(size.width), height: UInt(size.height), backgroundColor: backgroundColor)
+    public init(size: CGSize, backgroundColor: CGColor = UIColor.clear.cgColor) {
+        canvasSize = size
+        setup(backgroundColor: backgroundColor)
+    }
+    public convenience init(width: UInt, height: UInt, backgroundColor: CGColor = UIColor.clear.cgColor) {
+        self.init(size: CGSize(width: CGFloat(width), height: CGFloat(height)), backgroundColor: backgroundColor)
     }
     #endif
     
-    #if os(OSX)
-    public init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clear.cgColor) {
-        setup(width: width, height: height, backgroundColor: backgroundColor)
-    }
-    #elseif os(iOS)
-    public init(width: UInt, height: UInt, backgroundColor: CGColor = UIColor.clear.cgColor) {
-        setup(width: width, height: height, backgroundColor: backgroundColor)
-    }
-    #endif
-    private func setup(width: UInt, height: UInt, backgroundColor: CGColor) {
+    private func setup(backgroundColor: CGColor) {
+        let width = UInt(canvasSize.width)
+        let height = UInt(canvasSize.height)
+        
         let bitsPerComponent = Int(8)
         let bytesPerRow = 4 * width
         let colorSpace = CGColorSpaceCreateDeviceRGB()
@@ -47,7 +50,15 @@ open class Gotanda {
             fatalError("bitmapContext is empty.")
         }
         
+        #if os(iOS)
+            UIGraphicsPushContext(context)
+        #endif
+        
         contents(context)
+        
+        #if os(iOS)
+            UIGraphicsPopContext()
+        #endif
         
         return self
     }
