@@ -1,12 +1,4 @@
-//
-//  Gotanda macOS.h
-//  Gotanda macOS
-//
-//  Created by Sota Yokoe on 2016/10/11.
-//
-//
-
-#import <Cocoa/Cocoa.h>
+@import Foundation;
 
 //! Project version number for Gotanda macOS.
 FOUNDATION_EXPORT double GotandaVersionNumber;

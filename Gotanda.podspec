@@ -11,14 +11,9 @@ Pod::Spec.new do |s|
   s.version          = "0.0.5"
   s.summary          = "A lightweight bitmap manipulation library for iOS / macOS."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 A lightweight bitmap manipulation library for Swift.
+Creates NSImage / UIImage instantly.
                        DESC
 
   s.homepage         = "https://github.com/yokoe/Gotanda"
@@ -32,10 +27,6 @@ A lightweight bitmap manipulation library for Swift.
   s.osx.deployment_target = '10.9'
 
   s.source_files = "Sources/**/*.{h,swift}"
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'Cocoa'
-  # s.dependency 'AFNetworking', '~> 2.3'
 
   s.xcconfig = {
     'SWIFT_VERSION' => '3'
