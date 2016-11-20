@@ -45,6 +45,7 @@ open class Gotanda {
         }
     }
     
+    @discardableResult
     open func draw(_ contents: ((_ context: CGContext) -> ())) -> Gotanda {
         guard let context = bitmapContext else {
             fatalError("bitmapContext is empty.")
