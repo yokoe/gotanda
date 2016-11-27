@@ -19,6 +19,9 @@ if let pngData = gotanda.pngData {
 
 ## Requirements
 
+* iOS 8.0+
+* macOS 10.9+
+
 ## Installation
 
 Gotanda is available through [CocoaPods](http://cocoapods.org). To install
