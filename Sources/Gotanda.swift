@@ -97,8 +97,12 @@ open class Gotanda {
     #endif
     
     #if os(iOS)
+    open var cgImage: CGImage? {
+        return bitmapContext?.makeImage()
+    }
+    
     open var uiImage: UIImage? {
-        guard let img = bitmapContext?.makeImage() else { return nil }
+        guard let img = cgImage else { return nil }
         return UIImage(cgImage: img)
     }
     #endif

@@ -11,11 +11,14 @@ import Gotanda
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var anotherView: UIView!
+    
+    private let anotherLayer = CALayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        imageView.image = Gotanda(width: 200, height: 200, backgroundColor: UIColor.yellow.cgColor).draw({ (context) in
+        let gotanda = Gotanda(width: 200, height: 200, backgroundColor: UIColor.yellow.cgColor).draw({ (context) in
             context.setLineWidth(2)
             context.setStrokeColor(UIColor.blue.cgColor)
             context.move(to: CGPoint(x: 50, y: 50))
@@ -26,7 +29,16 @@ class ViewController: UIViewController {
                 context.draw(arrowImage.cgImage!, in: CGRect(origin: CGPoint(), size: CGSize(width: 50, height: 50)))
             }
             
-        }).uiImage
+        })
+        
+        imageView.image = gotanda.uiImage
+        
+        anotherLayer.contents = gotanda.cgImage
+        anotherView.layer.addSublayer(anotherLayer)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        anotherLayer.frame = anotherView.layer.bounds
     }
 
 }

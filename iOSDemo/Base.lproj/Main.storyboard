@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,23 +24,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cbi-Fm-w6m">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Cbi-Fm-w6m" secondAttribute="height" multiplier="1:1" id="HyT-mH-lGL"/>
+                                </constraints>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WfE-xC-HQb">
+                                <rect key="frame" x="16" y="363" width="343" height="284"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="WfE-xC-HQb" firstAttribute="top" secondItem="Cbi-Fm-w6m" secondAttribute="bottom" id="CrB-i5-dTh"/>
                             <constraint firstItem="Cbi-Fm-w6m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pbk-es-Oh3"/>
                             <constraint firstItem="Cbi-Fm-w6m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="QEM-zW-Vei"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cbi-Fm-w6m" secondAttribute="bottom" id="Ucm-bN-aNS"/>
+                            <constraint firstItem="WfE-xC-HQb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="gkf-m5-CQM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Cbi-Fm-w6m" secondAttribute="trailing" id="vhQ-wT-26Q"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WfE-xC-HQb" secondAttribute="bottom" constant="20" id="wa5-T0-bdr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WfE-xC-HQb" secondAttribute="trailing" id="zE1-TL-vbo"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="anotherView" destination="WfE-xC-HQb" id="t8g-fn-TMp"/>
                         <outlet property="imageView" destination="Cbi-Fm-w6m" id="CgO-wt-Nwu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
 </document>
