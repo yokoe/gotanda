@@ -64,6 +64,42 @@ open class Gotanda {
         return self
     }
     
+    public enum ImageScaleMode {
+        case center
+        case centerFill
+        case centerFit
+    }
+    
+    @discardableResult
+    open func draw(_ image: CGImage, mode: ImageScaleMode) -> Gotanda {
+        let imageWidth: CGFloat = CGFloat(image.width)
+        let imageHeight: CGFloat = CGFloat(image.height)
+        var scale: CGFloat
+        
+        switch mode {
+        case .centerFill:
+            let scaleX = canvasSize.width / imageWidth
+            let scaleY = canvasSize.height / imageHeight
+            scale = max(scaleX, scaleY)
+        case .centerFit:
+            let scaleX = canvasSize.width / CGFloat(image.width)
+            let scaleY = canvasSize.height / CGFloat(image.height)
+            scale = min(scaleX, scaleY)
+        case .center:
+            scale = 1
+        }
+        
+        let scaledWidth = imageWidth * scale
+        let scaledHeight = imageHeight * scale
+        let targetRect = CGRect(x: (canvasSize.width - scaledWidth) * 0.5, y: (canvasSize.height - scaledHeight) * 0.5, width: scaledWidth, height: scaledHeight)
+        
+        draw { (context) in
+            context.draw(image, in: targetRect)
+        }
+        
+        return self
+    }
+    
     #if os(OSX)
     open var imageRep: NSBitmapImageRep? {
         guard let context = bitmapContext else {
