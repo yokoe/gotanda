@@ -16,6 +16,16 @@ open class Gotanda {
     public convenience init(width: UInt, height: UInt, backgroundColor: CGColor = NSColor.clear.cgColor) {
         self.init(size: CGSize(width: CGFloat(width), height: CGFloat(height)), backgroundColor: backgroundColor)
     }
+    public convenience init(image: NSImage) {
+        self.init(size: image.size)
+        
+        var imageRect = NSRect(origin: CGPoint(), size: image.size)
+        guard let cgImage = image.cgImage(forProposedRect: &imageRect, context: nil, hints: nil) else {
+            fatalError("Failed to create cgimage from image.")
+        }
+        
+        draw(cgImage, mode: .center)
+    }
     #elseif os(iOS)
     public init(size: CGSize, backgroundColor: CGColor = UIColor.clear.cgColor) {
         canvasSize = size

@@ -17,6 +17,13 @@ if let pngData = gotanda.pngData {
 }
 ```
 
+### Initializers
+
+```
+Gotanda(width: 300, height: 200, backgroundColor: NSColor.yellowColor().CGColor)
+Gotanda(image: #imageLiteral(resourceName: "SomeImage"))
+```
+
 ## Requirements
 
 * iOS 8.0+

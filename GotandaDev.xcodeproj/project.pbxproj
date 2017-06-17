@@ -16,7 +16,6 @@
 		193C20DC1DAD27DD009DB6C6 /* Gotanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193C20C11DAD237D009DB6C6 /* Gotanda.framework */; };
 		193C20E61DAD297D009DB6C6 /* Gotanda.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 193C20E31DAD297D009DB6C6 /* Gotanda.podspec */; };
 		193C20E71DAD297D009DB6C6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 193C20E41DAD297D009DB6C6 /* LICENSE */; };
-		193C20E81DAD297D009DB6C6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 193C20E51DAD297D009DB6C6 /* README.md */; };
 		19539F901DCACDE600732F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19539F8F1DCACDE600732F21 /* AppDelegate.swift */; };
 		19539F921DCACDE600732F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19539F911DCACDE600732F21 /* ViewController.swift */; };
 		19539F951DCACDE600732F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19539F931DCACDE600732F21 /* Main.storyboard */; };
@@ -513,7 +512,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				193C20E81DAD297D009DB6C6 /* README.md in Sources */,
 				193C20CE1DAD258A009DB6C6 /* Gotanda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
