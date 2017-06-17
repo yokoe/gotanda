@@ -27,6 +27,9 @@
 		19539FAF1DCADB1E00732F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19539FAD1DCADB1E00732F21 /* Main.storyboard */; };
 		1999BBBF1DCADD4C008C6B4D /* Gotanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 193C20C11DAD237D009DB6C6 /* Gotanda.framework */; };
 		1999BBC01DCADD4C008C6B4D /* Gotanda.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 193C20C11DAD237D009DB6C6 /* Gotanda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19E78B4C1EF4D0880091E2D9 /* Gotanda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D7ADA1DCA41B200686012 /* Gotanda.framework */; };
+		19E78B4D1EF4D0A20091E2D9 /* Gotanda.h in Headers */ = {isa = PBXBuildFile; fileRef = 193C20C41DAD237D009DB6C6 /* Gotanda.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E78B4F1EF4D1490091E2D9 /* Gotanda.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 190D7ADA1DCA41B200686012 /* Gotanda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,16 @@
 				1999BBC01DCADD4C008C6B4D /* Gotanda.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E78B4E1EF4D13F0091E2D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19E78B4F1EF4D1490091E2D9 /* Gotanda.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -140,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E78B4C1EF4D0880091E2D9 /* Gotanda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +265,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E78B4D1EF4D0A20091E2D9 /* Gotanda.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +359,7 @@
 				19539F891DCACDE600732F21 /* Sources */,
 				19539F8A1DCACDE600732F21 /* Frameworks */,
 				19539F8B1DCACDE600732F21 /* Resources */,
+				19E78B4E1EF4D13F0091E2D9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
