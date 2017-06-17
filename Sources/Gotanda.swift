@@ -34,6 +34,15 @@ open class Gotanda {
     public convenience init(width: UInt, height: UInt, backgroundColor: CGColor = UIColor.clear.cgColor) {
         self.init(size: CGSize(width: CGFloat(width), height: CGFloat(height)), backgroundColor: backgroundColor)
     }
+    public convenience init(image: UIImage) {
+        self.init(size: image.size)
+        
+        guard let cgImage = image.cgImage else {
+            fatalError("Failed to create cgimage from image.")
+        }
+        
+        draw(cgImage, mode: .center)
+    }
     #endif
     
     private func setup(backgroundColor: CGColor) {
