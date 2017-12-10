@@ -138,7 +138,7 @@ open class Gotanda {
             return nil
         }
         
-        return imageRep.representation(using: .PNG, properties: [:])
+        return imageRep.representation(using: .png, properties: [:])
     }
     
     open var nsImage: NSImage? {
