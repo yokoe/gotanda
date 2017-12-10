@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Gotanda"
-  s.version          = "0.1.2"
+  s.version          = "0.2.0"
   s.summary          = "A lightweight bitmap manipulation library for iOS / macOS."
 
   s.description      = <<-DESC
@@ -29,6 +29,6 @@ Creates NSImage / UIImage instantly.
   s.source_files = "Sources/**/*.{h,swift}"
 
   s.xcconfig = {
-    'SWIFT_VERSION' => '3'
+    'SWIFT_VERSION' => '4'
   }
 end
