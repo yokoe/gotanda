@@ -8,6 +8,8 @@
 ## Usage
 
 ```
+import Gotanda
+
 let gotanda = Gotanda(width: 300, height: 200, backgroundColor: NSColor.yellowColor().CGColor).draw { (context) in
     // Draw something using context
 }
