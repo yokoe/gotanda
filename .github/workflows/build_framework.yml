@@ -3,6 +3,8 @@ name: Create Release
 # Create XCFramework when a version is tagged
 on:
   push:
+    branches:
+      - 'main'
     tags:
       - '*'
       
